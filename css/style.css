@@ -1,0 +1,32 @@
+/* CSS for the front end view */
+
+.custom-donations-form {
+	display:inline-block;
+	vertical-align:top;
+	margin:40px;
+}
+
+.custom-donations-form input {
+	display: block;
+}
+
+.custom-donations-form input.cdf-submit{
+	margin:20px 0;
+}
+
+.custom-donations-form table {
+	margin:0;
+}
+
+.custom-donations-form tr {
+	height:30px;
+}
+
+
+
+
+
+#cd-admin input.wide, input.wide {
+    width: 500px;
+}
+
