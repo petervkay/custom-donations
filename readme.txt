@@ -30,6 +30,8 @@ The front end view of the plugin is very basic.  I hope to add some more view op
 * First Version
 =1.1=
 *Fixed bug where content outputs out of place
+=1.2=
+* security and compatibility improvements
 
 == Screenshots ==
 1. Screenshot of front end of plugin output
@@ -39,6 +41,8 @@ The front end view of the plugin is very basic.  I hope to add some more view op
 
 =1.0=
 * First version!
+=1.2=
+* Not allowing direct file access, changed prefix from cd_ to cstdnt_, replaced hardcoded paths with wordpress constants
 
 == Frequently Asked Questions ==
 

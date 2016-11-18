@@ -1,5 +1,5 @@
 <?php
-
+if ( ! defined( 'ABSPATH' ) ) exit; 
 add_action('admin_head', 'my_custom_styles');
 add_action('admin_head', 'my_custom_scripts');
 
