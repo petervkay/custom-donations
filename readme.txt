@@ -8,8 +8,8 @@ Author:            Peter VanKoughnett
 Donate link:       https://www.paypal.me/petervankoughnett
 Requires at least: 3.0
 Tested up to:      4.6.1
-Stable tag:        1.2
-Version:           1.2
+Stable tag:        1.2.1
+Version:           1.2.1
 License: 		   GPLv2 or later
 License URI: 	   https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -26,12 +26,13 @@ The front end view of the plugin is very basic.  I hope to add some more view op
 1. Use the shortcode [custom-donations] where you want the plugin to output
 
 == Upgrade Notice ==
-=1.0=
-* First Version
+=1.2.1=
+* security and compatibility improvements
 =1.1=
 *Fixed bug where content outputs out of place
-=1.2=
-* security and compatibility improvements
+=1.0=
+* First Version
+
 
 == Screenshots ==
 1. Screenshot of front end of plugin output
@@ -39,10 +40,13 @@ The front end view of the plugin is very basic.  I hope to add some more view op
 
 == Changelog ==
 
-=1.0=
-* First version!
+=1.2.1=
+* fixed function namespacing issue
 =1.2=
 * Not allowing direct file access, changed prefix from cd_ to cstdnt_, replaced hardcoded paths with wordpress constants
+=1.0=
+* First version!
+
 
 == Frequently Asked Questions ==
 
