@@ -25,7 +25,7 @@ function cstdnt_settings_init(  ) {
 
 
 	add_settings_section(
-	'cstdnt_cstdnt_pluginPage_section', 
+	'cstdnt_pluginPage_section', 
 	__( '', 'wordpress' ), 
 	'cstdnt_settings_section_callback', 
 	'cstdnt_pluginPage'

@@ -1,9 +1,9 @@
 <?php
 if ( ! defined( 'ABSPATH' ) ) exit; 
-add_action('admin_head', 'my_custom_styles');
-add_action('admin_head', 'my_custom_scripts');
+add_action('admin_head', 'cstdnt_custom_styles');
+add_action('admin_head', 'cstdnt_custom_scripts');
 
-function my_custom_styles() {
+function cstdnt_custom_styles() {
   echo '
   <style>
     #cstdnt-admin input.wide {
@@ -20,7 +20,7 @@ function my_custom_styles() {
   </style>';
 }
 
-function my_custom_scripts() {
+function cstdnt_custom_scripts() {
   echo '
   <script>
     jQuery(document).ready(function($) {
